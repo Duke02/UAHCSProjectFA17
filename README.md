@@ -1,29 +1,47 @@
 # UAHCSProjectFA17
-## Codename: Python
+### Codename: Python
 
-This is the temporary code repository for the UAH CS Club Python Project for the 2017 Fall Semester.
+## Objective
+To teach the basics of Python to those unfamiliar and apply them to an object-oriented programming example.
 
-## Purpose
+### Note
+ This a very early and unspecific design document, as we are unsure of how to implement the more object-oriented variables.
 
-This project is to create a college student and "simulate" their lives, in the sense of having variables such as
-* Classes
-* Clubs
-* Credits
-* etc
+## Overview
+This is a project designed to expose members to Python and Object-Oriented programming (OPP).The project will consist of making a student class and setting and retrieving information from this class.Advancements will add more classes that can interact with the student class. This will consist of methods that will simulate different actions of students.
 
-and having functions such as
-* goToClass(whichClass)
-* study(howMuch)
-* haveExistentialCrisis(isSupportGiven)
-* goToTheGym()
-* getBuff(amtOfBuffness)
-* skipLegDay(howBad)
-* etc
+## Requirements
+Club members will create a program of a student class.
 
-## Goals for the Future
-After the basis is formed, some aspects of the project will need to be figured out later in the semester such as
-* Handle loading a college student from a file, as well as saving
-* Making a database of college students?
-* Making a text based adventure game for college students?
+The Program shall define a Student class
+* The Student class should contain private variables as such:
+     * String variable for name
+     * List of floats for grades
+     * Variables for knowledge, fitness
+     * Double variable for stress
+* The Student class may contain public functions as such:
+     * Constructor
+     * Get/Set Functions
+     * GetName – will return the student’s name
+     * GetGrades – will output the current grades of the student
+     * GetKnowledge – will return the student’s knowledge level
+     * GetStress – will return the student’s stress level
+     * GetFitness – will return the student’s fitness level
+     * SetName -  will set the student’s name
+     * SetGrades - will set the student’s grades
+     * SetKnowledge - will set the student’s knowledge
+     * setStress - will set the student’s stress
+     * setFitness - will set the student’s fitness
 
-# Fin
+Student Variables
+* Intelligencee
+* Dexterity
+* Fitness
+* Name
+* Stress
+
+The Program shall define a Student class
+* The Student class should contain private variables as such:
+    * string variable for name
+    * List of floats for grades
+    * Integer Variables for knowledge, stress, fitness
