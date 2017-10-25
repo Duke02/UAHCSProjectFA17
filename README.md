@@ -22,26 +22,20 @@ The Program shall define a Student class
 * The Student class may contain public functions as such:
      * Constructor
      * Get/Set Functions
-     * GetName – will return the student’s name
-     * GetGrades – will output the current grades of the student
-     * GetKnowledge – will return the student’s knowledge level
-     * GetStress – will return the student’s stress level
-     * GetFitness – will return the student’s fitness level
-     * SetName -  will set the student’s name
-     * SetGrades - will set the student’s grades
-     * SetKnowledge - will set the student’s knowledge
-     * setStress - will set the student’s stress
-     * setFitness - will set the student’s fitness
+        * getName – will return the student’s name
+        * getGrades – will output the current grades of the student
+        * getKnowledge – will return the student’s knowledge level
+        * getStress – will return the student’s stress level
+        * getFitness – will return the student’s fitness level
+        * setName -  will set the student’s name
+        * setGrades - will set the student’s grades
+        * setKnowledge - will set the student’s knowledge
+        * setStress - will set the student’s stress
+        * setFitness - will set the student’s fitness
 
 Student Variables
-* Intelligencee
+* Intelligence
 * Dexterity
 * Fitness
 * Name
 * Stress
-
-The Program shall define a Student class
-* The Student class should contain private variables as such:
-    * string variable for name
-    * List of floats for grades
-    * Integer Variables for knowledge, stress, fitness
